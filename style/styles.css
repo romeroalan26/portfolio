@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #011b30;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #011b30;
+	height: 130px;
+}
+
+.logo {
+	overflow: scroll;
+	max-width: 100px;
+	max-height: 100px;
+	/* border-radius: 60px; */
+	cursor: pointer;
+	border: 3px solid #011b30;
+	transition: 0.3s;
+}
+
+.logo:hover {
+	border: 3px solid #216adf;
+	max-width: 120px;
+	max-height: 120px;
+	border-radius: 10px;
+}
+
+.links-container {
+	font-size: 21px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 40%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	transition: 0.125s;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+	border: 3px solid #216adf;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 25px;
+}
+
+.presentation {
+	color: #39e8ff;
+	font-size: 16px;
+}
+
+.name {
+	color: #ccd6f6;
+	font-size: 72px;
+}
+
+.profession {
+	color: #a3bfd9;
+	font-size: 72px;
+}
+
+.description {
+	color: #a3bfd9;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.home-container {
+	margin: 0;
+	line-height: 1.2;
+}
+
+.home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.view-work {
+	background-color: #011b30;
+	padding: 15px 25px 15px 25px;
+	color: white;
+	border: 2px solid rgb(209, 205, 205);
+	transition: 0.4s;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.view-work:hover {
+	border: 2px solid #216adf;
+	padding: 15px 35px 15px 35px;
+}
