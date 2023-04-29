@@ -26,7 +26,6 @@ body {
 	overflow: scroll;
 	max-width: 100px;
 	max-height: 100px;
-	/* border-radius: 60px; */
 	cursor: pointer;
 	border: 3px solid #011b30;
 	transition: 0.3s;
@@ -69,15 +68,16 @@ a:hover {
 
 .name {
 	color: #ccd6f6;
-	font-size: 72px;
+	font-size: 8vmin;
 }
 
 .profession {
 	color: #a3bfd9;
-	font-size: 72px;
+	font-size: 8vmin;
 }
 
 .description {
+	max-width: 700px;
 	color: #a3bfd9;
 }
 
@@ -112,4 +112,38 @@ section {
 .view-work:hover {
 	border: 2px solid #216adf;
 	padding: 15px 35px 15px 35px;
+}
+
+@media (max-width: 768px) {
+	.header {
+		flex-direction: column;
+	}
+	.links-container {
+		gap: 20px;
+	}
+
+	a {
+		font-size: 18px;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: #39e8ff;
+		border: none;
+		padding: 0;
+		border-radius: 10px;
+		font-size: 18px;
+	}
+
+	.logo:hover {
+		border: 1px solid #216adf;
+		max-width: 110px;
+		max-height: 110px;
+		border-radius: 10px;
+	}
+
+	.main-container {
+		padding-left: 8%;
+		padding-right: 8%;
+	}
 }
