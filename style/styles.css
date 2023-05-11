@@ -198,15 +198,17 @@ section {
 
 #tech-container {
 	box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.4);
-	padding: 20px;
+	padding: 25px;
 	cursor: pointer;
 	border: 1px solid #216adf;
 	border-radius: 20px;
-	transition: 0.1s;
+	transition: 0.3s;
 }
 
 #tech-container:hover {
 	border: 1px solid #d1d5db;
+	transform: rotateY(0deg) rotate(15deg);
+	transition: transform 0.125s;
 }
 
 .technologies p {
@@ -220,15 +222,16 @@ section {
 #github-image,
 #js-image,
 #angular-image {
-	width: 100px;
-	transition: 0.3s;
+	width: 5rem;
+	transition: 0.2s;
 }
 /* #html-image:hover,
 #css-image:hover,
 #github-image:hover,
 #js-image:hover,
 #angular-image:hover {
-	width: 110px;
+	transform: rotateY(0deg) rotate(10deg);
+	transition: transform 0.125s;
 } */
 
 @media only screen and (max-width: 900px) {
@@ -337,6 +340,7 @@ section {
 		border: none;
 		border-radius: 10px;
 		font-size: 18px;
+		color: gray;
 	}
 
 	#section-about {
