@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<script src="script/script.js"></script>
+		
 		<link rel="stylesheet" href="style/styles.css" />
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -39,7 +39,7 @@
 						<br>
 						<br>
 						
-						<a class="view" href="#section-about">View Work ↓</a>
+						<a class="view" href="#section-work">View Work ↓</a>
 					</div>
 				</div>
 				
@@ -105,7 +105,7 @@
 							<div><p>Angular</p></div> 
 							
 					 	</div>
-						
+
 						<div id="tech-container">
 							<div class="img-container">
 								<img src="images/github.png" alt="github" id="github-image">
@@ -124,10 +124,55 @@
 			</section>
 
 			<!-- Section WORK -->
-			<section id="section-work"></section>
+			<section id="section-work">
+				<div class="skills-container">
+					
+					<div class="skills"><h1>Work</h1><p class="skills-description">//Check out some of my recent work</p></div>
+					
+					<div id="view-skills"><a  class="view" href="#section-contact">Contact me ↓</a></div>
+					
+				</div>
+			</section>
 
 			<!-- Section CONTACT -->
-			<section id="section-contact"></secti>
+			<section id="section-contact">
+				
+				<div class="contact-container">
+					
+					<div class="skills">
+						<h1>Contact</h1>
+						<p class="skills-description">//Submit the form below or email me at alanromerod.266@gmail.com</p>
+					</div>
+
+					<div>
+						<form method="POST" accept-charset="UTF-8" id="form">
+							<input id="inp-email" type="email" name="email" placeholder="Your email">
+							<input id="inp-message" type="text" name="full-name" placeholder="Name & Message">
+							<!-- add hidden Honeypot input to prevent spams -->
+							<input type="hidden" name="_gotcha" style="display:none !important">
+							<button onclick="openModal()" class="view" id="view-skills send-btn" type="submit">Send</button>
+							
+							<div id="close-modal" class="send-modal">
+								<div>
+								  <button  class="close-btn" onclick="closeModal()">X</button>
+								</div>
+								<div>
+									<p>The form has been successfully sent!</p>
+								</div>
+		
+							</div>
+							
+					</form>
+					
+					<script src="script/script.js">
+							
+					</script>
+					</div>
+					
+					
+					
+				</div>
+			</secti>
 		</main>
 	</body>
 </html>
