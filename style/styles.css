@@ -202,7 +202,7 @@ section {
 	cursor: pointer;
 	border: 1px solid #216adf;
 	border-radius: 20px;
-	transition: 0.3s;
+	transition: 0.1s;
 }
 
 #tech-container:hover {
@@ -223,13 +223,13 @@ section {
 	width: 100px;
 	transition: 0.3s;
 }
-#html-image:hover,
+/* #html-image:hover,
 #css-image:hover,
 #github-image:hover,
 #js-image:hover,
 #angular-image:hover {
-	width: 120px;
-}
+	width: 110px;
+} */
 
 @media only screen and (max-width: 900px) {
 	.header {
@@ -274,13 +274,13 @@ section {
 		transition: 0.3s;
 	}
 
-	#html-image:hover,
+	/* #html-image:hover,
 	#css-image:hover,
 	#github-image:hover,
 	#js-image:hover,
 	#angular-image:hover {
 		width: 75px;
-	}
+	} */
 
 	#section-skills {
 		display: flex;
