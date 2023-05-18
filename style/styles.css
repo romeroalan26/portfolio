@@ -31,6 +31,7 @@ body {
 	align-items: center;
 	background-color: #011b30;
 	height: 120px;
+	z-index: 999;
 }
 
 .logo {
@@ -173,6 +174,7 @@ section {
 	padding: 40px;
 	width: 900px;
 	height: 50%;
+	z-index: 1;
 }
 
 .send-modal {
@@ -197,7 +199,6 @@ section {
 	font-size: large;
 	top: 10px;
 	right: 10px;
-	z-index: 2;
 	border: none;
 	cursor: pointer;
 	border-radius: 10px;
@@ -243,8 +244,6 @@ section {
 
 #tech-container:hover {
 	border: 1px solid #d1d5db;
-	transform: rotateY(0deg) rotate(15deg);
-	transition: transform 0.125s;
 }
 
 .technologies p {
@@ -261,14 +260,15 @@ section {
 	width: 5rem;
 	transition: 0.2s;
 }
-/* #html-image:hover,
+#html-image:hover,
 #css-image:hover,
 #github-image:hover,
 #js-image:hover,
 #angular-image:hover {
-	transform: rotateY(0deg) rotate(10deg);
-	transition: transform 0.125s;
-} */
+	/* transform: rotateY(0deg) rotate(10deg);
+	transition: transform 0.125s; */
+	width: 5.3rem;
+}
 
 form {
 	display: flex;
