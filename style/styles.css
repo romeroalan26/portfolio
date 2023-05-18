@@ -323,11 +323,13 @@ input {
 
 .card-container {
 	position: relative;
+	border-radius: 20px;
 }
 
 .work-image {
 	width: 200px;
 	cursor: pointer;
+	border-radius: 20px;
 }
 
 .work-link {
