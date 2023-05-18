@@ -18,7 +18,7 @@ The Skills folder contains information about my technical skills and expertise a
 <h3>Work Experience</h3>
 In the Work Experience folder, you can find details about my professional work history as a front-end developer. This includes information about my previous roles, responsibilities, and notable projects I have worked on. Each project is organized in its own folder and includes a README file with a brief description, instructions, and relevant links.
 
-<h3>Contact</3>
+<h3>Contact</h3>
 If you would like to get in touch with me, feel free to reach out via the contact information provided in the repository. I am open to collaboration, job opportunities, or any inquiries you may have.
 
 Thank you for visiting my portfolio repository. I hope you enjoy learning about my front-end development journey!
