@@ -173,7 +173,7 @@ section {
 	box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.4);
 	padding: 40px;
 	width: 900px;
-	height: 50%;
+	height: 60%;
 	z-index: 1;
 }
 
@@ -234,8 +234,12 @@ section {
 }
 
 #tech-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 	box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.4);
-	padding: 25px;
+	padding: 1rem;
+	height: 7rem;
 	cursor: pointer;
 	border: 1px solid #216adf;
 	border-radius: 20px;
@@ -257,16 +261,16 @@ section {
 #github-image,
 #js-image,
 #angular-image {
-	width: 5rem;
+	width: 4rem;
 	transition: 0.2s;
 }
-#html-image:hover,
+/* #html-image:hover,
 #css-image:hover,
 #github-image:hover,
 #js-image:hover,
 #angular-image:hover {
 	width: 5.3rem;
-}
+} */
 
 form {
 	display: flex;
@@ -291,6 +295,10 @@ input {
 	margin-bottom: 10px;
 }
 @media only screen and (max-width: 900px) {
+	.home-container .name,
+	.home-container .profession {
+		font-size: 40px;
+	}
 	.header {
 		position: relative;
 		flex-direction: column;
@@ -331,17 +339,9 @@ input {
 	#github-image,
 	#js-image,
 	#angular-image {
-		width: 70px;
+		width: 40px;
 		transition: 0.3s;
 	}
-
-	/* #html-image:hover,
-	#css-image:hover,
-	#github-image:hover,
-	#js-image:hover,
-	#angular-image:hover {
-		width: 75px;
-	} */
 
 	#section-skills {
 		display: flex;
@@ -351,13 +351,14 @@ input {
 		/* height: 90vh; */
 	}
 
-	/* .home-container {
-		width: 50%;
-	} */
-
 	#tech-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.4);
-		padding: 15px;
+		padding: 1rem;
+		width: 6rem;
+		height: 5em;
 		margin-bottom: 10px;
 		cursor: pointer;
 		border: 1px solid #216adf;
@@ -376,7 +377,7 @@ input {
 		line-height: 1.2;
 		box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.4);
 		padding: 1.5em;
-		height: 70vh;
+		height: 70%;
 	}
 
 	.links-container {
