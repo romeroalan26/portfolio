@@ -265,8 +265,6 @@ section {
 #github-image:hover,
 #js-image:hover,
 #angular-image:hover {
-	/* transform: rotateY(0deg) rotate(10deg);
-	transition: transform 0.125s; */
 	width: 5.3rem;
 }
 
