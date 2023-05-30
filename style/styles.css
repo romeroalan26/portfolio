@@ -340,11 +340,12 @@ input {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #ffffff;
+	background-color: #011b30;
 	opacity: 0;
-	transition: opacity 0.125s;
+	transition: opacity 0.2s;
+
 	z-index: 0;
-	box-shadow: 8px 10px 15px rgba(0, 0, 0, 0.5);
+	/* box-shadow: 8px 10px 15px rgba(0, 0, 0, 0.5); */
 }
 
 .card-container:hover .work-link {
@@ -354,7 +355,7 @@ input {
 .work-link a {
 	text-decoration: none;
 	margin-right: 10px;
-	color: black;
+	color: white;
 	font-size: 18px;
 	font-weight: bold;
 	cursor: pointer;
