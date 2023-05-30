@@ -20,7 +20,6 @@ function formSubmit(e) {
 }
 
 function closeModal() {
-	console.log("it works");
 	closeBtn.style.opacity = 0;
 }
 
